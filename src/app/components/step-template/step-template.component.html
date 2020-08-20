@@ -1,0 +1,8 @@
+<div class="step-template">
+    <h2>Step {{ step.stepIndex }}</h2>
+    <div class="step-content-label">Here's where you show content for step {{ step.stepIndex }}</div>
+    <button class="step-complete-btn" (click)="onCompleteStep()">
+        <span class="completed-step-check material-icons">
+            {{ step.isComplete ? 'check_circle' : 'panorama_fish_eye' }}
+        </span>Complete Step {{ step.stepIndex }}</button>
+</div>

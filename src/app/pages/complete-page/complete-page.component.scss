@@ -1,0 +1,21 @@
+@import './../../../assets/colors.scss';
+
+.complete-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.complete-page-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.completed-page-check {
+    font-size: 4em;
+    color: $blue;
+}

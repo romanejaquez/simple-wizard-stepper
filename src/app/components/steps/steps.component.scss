@@ -1,0 +1,41 @@
+@import './../../../assets/colors.scss';
+
+.form-steps-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    margin-top: 32px;
+}
+
+.step-bubble {
+    padding: 8px;
+    border: 3px solid $blue;
+    width: 12px;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: $blue;
+    font-size: 1em;
+    cursor: pointer;
+    user-select: none;
+}
+
+.step-divider {
+    height: 2px;
+    background: $blue;
+    flex: 1;
+    margin: 0px 10px;
+}
+
+.step-current, .step-complete {
+    background: $blue;
+    color: $white;
+}
+
+.step-incomplete {
+    cursor: not-allowed;
+    pointer-events: none;
+}

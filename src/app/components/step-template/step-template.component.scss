@@ -1,0 +1,19 @@
+@import './../../../assets/colors.scss';
+
+.step-content-label {
+    margin-bottom: 16px;
+}
+
+.step-complete-btn {
+    padding: 10px 20px 10px 10px;
+    border-radius: 50px;
+    border: none !important;
+    background: #c9e6ff;
+    display: flex;
+    align-items: center;
+}
+
+.completed-step-check {
+    margin-right: 12px;
+    color: $blue !important;
+}
